@@ -1,44 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+  <header>
+    <figure class="logo" alt="logo da wikipedia">
+      <img src="assets/images/Wikipedia-logo.svg" height="50" width="50" />
+      <img src="assets/images/Wikipedia_wordmark.svg" height="25" />
+    </figure>
+  </header>
 
-    <div class="bar"></div>
+  <div class="bar"></div>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+  <main class="content">
+    <nav class="sidebar">
+      <h2>Consoles de Jogos Eletrônicos</h2>
+      <ul>
+        <li><a href="./nintendo.html">Nintendo</a></li>
+        <li><a href="./xbox.html">Xbox</a></li>
+        <li><a href="./playstation.html">Playstation</a></li>
+      </ul>
+    </nav>
 
-        <div class="main">
-            
-        </div>
+    <article class="main">
+      <h1>Consoles de Jogos Eletrônicos</h1>
+      <p>Console de jogo eletrônico (português brasileiro) ou consola de jogo eletrónico (português europeu) (também chamado no Brasil simplesmente de videogame ou console, e em Portugal de consola) é um microcomputador dedicado a executar jogos de vídeo (jogo eletrônico) de diversas naturezas ou, como são conhecidos, diversos gêneros, como jogos de tiro, jogos de ação, aventura e outros. O console executa um jogo de cada vez, mas que pode ser facilmente intercambiado de acordo com o desejo do usuário. Apreciadores de videojogos existem em ambos os sexos e todas as faixas etárias, de crianças a adultos.</p>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+      <section id="historia">
+        <h2>História</h2>
+        <p>O físico William Higinbotham, integrante da equipe do projeto Manhattan (produtores da primeira bomba atômica) é historicamente o inventor do videogame, em 1958 no laboratório de pesquisas nucleares estadunidense, mas este não patenteou o mesmo por achar um conceito muito elementar. Portanto oficialmente não é considerado seu criador.</p>
 
-    <div class="footer">
+        <p>William adaptou o programa de um osciloscópio que demonstrava a trajetória de uma bola em movimento onde os visitantes teriam de interagir com esta, sendo batizado de "Tenis para Dois" (ou Tennis Programming).</p>
 
-    </div>
+        <p>Em 1966, o engenheiro eletrônico alemão Ralph Baer, especialista em televisores e empregado da empresa Sanders Associates, pensou no conceito que implementasse novas funções para os televisores, criar um equipamento que processasse jogos eletrônicos por meio de sua veiculação na televisão, com poucos recursos financeiros. Mas a empresa teve um momento de crise e demissões em massa. Assim Ralph procurou novos investidores, então em agosto de 1972 fechou parceria com a empresa de eletrônicos Magnavox, que lança o primeiro aparelho de jogos elétricos doméstico (ou para televisores) da história, batizado de Odyssey, iniciando oficialmente a primeira geração de consoles (1972-1977).</p>
+      </section>
+
+      <section id="fabricantes-atuais">
+        <h2>Fabricantes atuais</h2>
+        <p>Os modelos de consoles de videogames recebem popularmente a denominação de plataformas ou "sistemas", e cada modelo distinto será uma plataforma diferente.</p>
+        <ul>
+          <li>
+            <h3 id="nintendo">Nintendo</h3>
+            <p>A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou em 1983 com o console de mesa NES. Em sequência desenvolveu o SNES, o Nintendo 64, o GameCube, o Wii, o Wii U e por último o Nintendo Switch.</p>
+            <figure>
+              <img src="assets/images/nintendo-switch.jpg" alt="Três Nintendos Switch Lite, dispostos um ao lado do outro com as cores amarelo, azul e cinza, respectivamente" height="200" />
+              <figcaption>Nintendo Switch Lite</figcaption>
+          </li>
+
+          <li>
+            <h3 id="sony">Sony</h3>
+            <p>A Sony é líder do mercado de videojogos domésticos. Estreou em 1994 com o PlayStation, em 2000 lançou o console doméstico mais vendido da história, o PlayStation 2 e em 2006 lançou o PlayStation 3. Em 2005 lançou seu primeiro console portátil, o PSP, e no quarto trimestre de 2011 lançou o PlayStation Vita, continuação da sua linha de portáteis.</p>
+            <figure>
+              <img src="assets/images/ps5.jpg" alt="Um Playstation 5 slim branco, com um controle de mesma cor" height="200" />
+              <figcaption>Playstation 5 Slim</figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <h3 id="microsoft">Microsoft</h3>
+            <p>A Microsoft é uma empresa multibilionária de software e hardware. Estreou-se no mercado dos consoles de videogame em 2001 com o Xbox. Em 2005 deu início a sétima geração com o Xbox 360, e em 2013 lançou o seu console da oitava geração: Xbox One, lançado no dia 22 de Novembro de 2013. Em 2020, lançou a linha de consoles de nona geração Xbox Series X/S.</p>
+            <figure>
+              <img src="assets/images/series-s.jpg" alt="Um Xbox Series S na cor preta" height="200" />
+              <figcaption>Xbox Series S</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+    </article>
+
+    <aside class="anchors">
+      <h2>Neste Artigo</h2>
+      <ul>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#fabricantes-atuais">Fabricantes atuais</a></li>
+        <ul>
+          <li><a href="#nintendo">Nintendo</a></li>
+          <li><a href="#sony">Sony</a></li>
+          <li><a href="#microsoft">Microsoft</a></li>
+        </ul>
+      </ul>
+    </aside>
+  </main>
+
+  <div class="footer">
+
+  </div>
 </body>
+
 </html>
